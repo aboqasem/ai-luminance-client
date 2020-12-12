@@ -1,4 +1,3 @@
-# AI Luminance Client
+# AI Luminance
 
-### - [Client](https://aboqasem.github.io/ai-luminance/)
-### - [Server](https://ai-luminance.herokuapp.com/)
+### [App](https://aboqasem.github.io/ai-luminance/)
