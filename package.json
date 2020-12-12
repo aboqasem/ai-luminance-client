@@ -1,10 +1,10 @@
 {
-  "name": "ai-luminance-client",
+  "name": "ai-luminance",
   "version": "1.0.0",
-  "description": "Client of the random color luminance detector with brain.js neural networks.",
+  "description": "Random color generator that gets luminance from a server with brain.js neural networks.",
   "repository": {
     "type": "git",
-    "url": "git://github.com/aboqasem/ai-luminance-server.git"
+    "url": "git://github.com/aboqasem/ai-luminance.git"
   },
   "scripts": {
     "serve": "vue-cli-service serve",
