@@ -5,11 +5,12 @@
 </template>
 
 <script>
+const serverUrl = 'https://ai-luminance.herokuapp.com/';
 export default {
   name: 'App',
   created() {
     // call the server once created so it trains the neural network.
-    fetch('https://ai-luminance.herokuapp.com/');
+    fetch(serverUrl);
   },
   data: function() {
     return {
@@ -22,7 +23,7 @@ export default {
   },
   methods: {
     getLuminance: async function() {
-      await fetch('https://ai-luminance.herokuapp.com/')
+      await fetch(serverUrl)
       .then(res => res.json())
       .then(json => {
         const { r, g, b, likely } = json;
