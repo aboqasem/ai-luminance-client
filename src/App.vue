@@ -1,6 +1,6 @@
 <template>
   <div class='start' v-on:click='getLuminance' v-bind:style='{ background: `rgb(${r},${g},${b})`, }'>
-    <p v-bind:style='{color: `${isLight ? "#121212" : "#FFFFFF"}`}'>{{title}}</p>
+    <p class='unselectable' v-bind:style='{color: `${isLight ? "#121212" : "#FFFFFF"}`}'>{{title}}</p>
   </div>
 </template>
 

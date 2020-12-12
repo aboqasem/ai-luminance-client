@@ -38,6 +38,14 @@ body {
   cursor: pointer;
 }
 
+.unselectable {
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
 @-webkit-keyframes gradient {
   0% {
     background-position: 0 100%;
