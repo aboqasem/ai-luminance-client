@@ -24,13 +24,7 @@ body {
     #ff3706
   );
   background-size: 600% 100%;
-  -webkit-animation: gradient 8s ease infinite;
-  -moz-animation: gradient 8s ease infinite;
-  -o-animation: gradient 8s ease infinite;
   animation: gradient 8s ease infinite;
-  -webkit-animation-direction: alternate;
-  -moz-animation-direction: alternate;
-  -o-animation-direction: alternate;
   animation-direction: alternate;
 }
 
@@ -39,47 +33,7 @@ body {
 }
 
 .unselectable {
-  -webkit-user-select: none;
-  -webkit-touch-callout: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
   user-select: none;
-}
-
-@-webkit-keyframes gradient {
-  0% {
-    background-position: 0 100%;
-  }
-  50% {
-    background-position: 100% 0;
-  }
-  100% {
-    background-position: 0 100%;
-  }
-}
-
-@-moz-keyframes gradient {
-  0% {
-    background-position: 0 100%;
-  }
-  50% {
-    background-position: 100% 0;
-  }
-  100% {
-    background-position: 0 100%;
-  }
-}
-
-@-o-keyframes gradient {
-  0% {
-    background-position: 0 100%;
-  }
-  50% {
-    background-position: 100% 0;
-  }
-  100% {
-    background-position: 0 100%;
-  }
 }
 
 @keyframes gradient {
