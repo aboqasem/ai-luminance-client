@@ -1,11 +1,9 @@
 # System
 .DS_Store
+.vscode/
 
 # Dependency directories
 node_modules/
 
 # Build
 dist/
-
-# Deployment
-deploy
