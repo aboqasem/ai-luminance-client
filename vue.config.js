@@ -1,3 +1,3 @@
 module.exports = {
-  publicPath: '/ai-luminance/'
-}
+  publicPath: "/ai-luminance-vue/",
+};

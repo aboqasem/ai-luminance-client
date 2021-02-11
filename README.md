@@ -1,3 +1,3 @@
 # AI Luminance
 
-### [App](https://aboqasem.github.io/ai-luminance/)
+### [App](https://aboqasem.github.io/ai-luminance-vue/)

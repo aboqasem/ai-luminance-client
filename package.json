@@ -1,10 +1,10 @@
 {
-  "name": "ai-luminance",
+  "name": "ai-luminance-vue",
   "version": "1.0.0",
   "description": "Random color generator that gets luminance from a server with brain.js neural networks.",
   "repository": {
     "type": "git",
-    "url": "git://github.com/aboqasem/ai-luminance.git"
+    "url": "git://github.com/aboqasem/ai-luminance-vue.git"
   },
   "scripts": {
     "serve": "vue-cli-service serve",
